@@ -1,23 +1,5 @@
 {
-  "bio" : {
-  	
-    "favorite_foods" : [ "steak", "break" ] ,
 
-    "work_experience" : { 
-
-    	"VictorOps" : ["Software Engineering Intern"],
-    	"Zayo Group" : ["Application Development Intern"]
-
-    },
-
-    "Hard Skills" : {
-
-    	"Proficient In:" : [ "Javascript", "C++"],
-    	"Familiar With:" : [ "Python" , "Arduino"]
-
-
-    }
-  },
 
   "todos" : {
     "tasks" : [ "eat", "sleep" , "brush teeth", "get stoked" , "meet partners" ]
