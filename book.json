@@ -50,7 +50,7 @@
     	 	"priority" : "high",
     	 	"type" : "mostly optional",
     	 	"deadline" : "All day everyday"
-    	 },
+    	 }
 	}
   }
 }
