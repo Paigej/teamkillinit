@@ -1,57 +1,18 @@
 {
   "todos" : {
-    "tasks" : {
-    	 "eat" : { 
-    	 	"priority" : "high",
-    	 	"type" : "necessity",
-    	 	"deadline" : "three times a day"
-    	 },
-    	  "sleep" : { 
-    	 	"priority" : "medium",
-    	 	"type" : "necessity",
-    	 	"deadline" : "everyday at 11pm"
-    	 },
-    	  "brush teeth" : { 
-    	 	"priority" : "high",
-    	 	"type" : "necessity",
-    	 	"deadline" : "twice a day"
-    	 } ,
-    	  "attend class" : { 
-    	 	"priority" : "high",
-    	 	"type" : "academic",
-    	 	"deadline" : "4pm"
-    	 },
-    	  "meet partners" : { 
-    	 	"priority" : "meduim",
-    	 	"type" : "academic",
-    	 	"deadline" : "5pm"
-    	 },
-    	 "homework" : { 
-    	 	"priority" : "high",
-    	 	"type" : "academic",
-    	 	"deadline" : "Friday"
-    	 },
-    	 "relax" : { 
-    	 	"priority" : "high",
-    	 	"type" : "optional",
-    	 	"deadline" : "none"
-    	 },    	 
-    	  "work" : { 
-    	 	"priority" : "high",
-    	 	"type" : "career",
-    	 	"deadline" : "3pm"
-    	 },
-    	 "call mom" : { 
-    	 	"priority" : "high",
-    	 	"type" : "necessity",
-    	 	"deadline" : "7pm"
-    	 },    	  
-    	 "get stoked" : { 
-    	 	"priority" : "high",
-    	 	"type" : "mostly optional",
-    	 	"deadline" : "All day everyday"
-    	 }
-	}
+    "tasks" : [
+    	{"name": "eat", "priority": "high", "type": "necessity", "deadline": "three times a day"},
+        {"name": "sleep", "priority": "medium", "type": "necessity", "deadline": "everyday at 11pm"},
+        {"name": "brush teeth", "priority": "high", "type": "necessity", "deadline": "twice a day"},
+        {"name": "attend class", "priority": "high", "type": "academic", "deadline": "4pm"},
+        {"name": "meet partners", "priority": "medium", "type": "academic", "deadline": "5pm"},
+        {"name": "homework", "priority": "high", "type": "academic", "deadline": "Friday"},
+        {"name": "relax", "priority": "high", "type": "optional", "deadline": "none"},
+        {"name": "sleep", "priority": "medium", "type": "necessity", "deadline": "everyday at 11pm"},
+        {"name": "work", "priority": "high", "type": "career", "deadline": "3pm"},
+        {"name": "call mom", "priority": "high", "type": "necessity", "deadline": "7pm"},
+        {"name": "get stoked", "priority": "high", "type": "mostly optional", "deadline": "All day everyday"}
+	]
   }
 }
 

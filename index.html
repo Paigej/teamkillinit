@@ -28,15 +28,35 @@
               <script>
 
                 // create a firebase reference to the root
-                var ref = new Firebase('https://paige-book.firebaseio.com/')
+//                var ref = new Firebase('https://alexokeson-week1.firebaseio.com/')
+//
+                // read data from the location todos/tasks, only once
+//                ref.child('todos/tasks').once('value', function(snapshot){
+//                  var tasks = snapshot.val()
+//                  tasks.forEach(function(task){
+//                    $('#tasks').append('<div class="row"><div class="col s12 m5"><div class="card teal"><div class="card-content white-text"><span class="card-title">'+ task + '</span></div></div></div></div>')
+//                  })
+//                })
+              
+
+
+                // create a firebase reference to the root
+                var ref = new Firebase('https://AlexOkeson-week1.firebaseio.com/')
 
                 // read data from the location todos/tasks, only once
                 ref.child('todos/tasks').once('value', function(snapshot){
                   var tasks = snapshot.val()
                   tasks.forEach(function(task){
-                    $('#tasks').append('<div class="row"><div class="col s12 m5"><div class="card teal"><div class="card-content white-text"><span class="card-title">'+ task + '</span><div class="card-content"><p>Priority: ' + task + '.priority</p></div></div></div></div></div>')
+                  //$('#tasks').append('<li class="collection-item">' + task + '</li>')
+                    $('#tasks').append('<div class="row"><div class="col s12 m14"><div class="card pink"><div class="card-content black-text"><span class="card-title">' + task + '</span></div></div></div></div>')
                   })
                 })
+  
+
+
+
+
+
               </script>
         
 
