@@ -21,6 +21,7 @@
     <nav>
       <div class="nav-wrapper teal lighten-2">
         <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="high.html">High</a></li>
           <li><a href="medium.html">Medium</a></li>
           <li><a href="low.html">Low</a></li>
@@ -50,7 +51,6 @@
         // read data from the location todos/tasks, only once
         ref.child('todos/tasks').on('value', function(snapshot){
           var tasks = snapshot.val()
-          $("#tasks").empty();
           tasks.forEach(function(task){
             color = ''
             if(task.priority=='high'){
