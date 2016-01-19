@@ -57,7 +57,7 @@
             color = ''
             if(task.priority=='low'){
               color = 'green'
-              $('#tasks').append('<div class="row"><div class="col s12 m20"><div class="card ' + color + '"><div class="card-content black-text"><span class="card-title">' + task.name + '</span><p>Priority: ' + task.priority + '<br>Type: ' + task.type + '<br>Deadline: ' + task.deadline + '</p></div></div></div></div>')
+              $('#tasks').append('<div class="row"><div class="col s12 m20"><div class="card ' + color + '"><div class="card-content white-text"><span class="card-title">' + task.name + '</span><p><i class="tiny material-icons">assessment</i> Priority: ' + task.priority + '<br><i class="tiny material-icons">label_outline</i> Type: ' + task.type + '<br><i class="tiny material-icons">schedule</i> Deadline: ' + task.deadline + '</p></div></div></div></div>')
             }
            })
           })
