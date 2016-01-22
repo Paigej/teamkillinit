@@ -7,7 +7,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
        
 
- 
+  
+
 
 
       <!--Let browser know website is optimized for mobile-->
@@ -51,6 +52,7 @@
             </div>
         </div>
           
+        <input type="date" class="datepicker">
 
 
         <div class="row">
@@ -76,6 +78,9 @@
           
           var userid = $('#userid').val()
           console.log('the id is', userid)
+          
+          
+          
          
          
           // TODO: retrieve more fields from form inputs
@@ -92,6 +97,13 @@
           var newTaskRef = taskListRef.push()
           newTaskRef.set(taskObject)
         })
+         
+         
+          $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+        
 
         // IMPORTANT!! initialize materializecss select
         $(document).ready(function() {
